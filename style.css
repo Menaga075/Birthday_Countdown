@@ -1,0 +1,141 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #f2f3ef;
+    margin-top: 12%;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+#form {
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+    #form input {
+        padding-top: 20px;
+        border: none;
+        outline: none;
+        text-align: center;
+        border-bottom: navy solid 3px;
+        border-right:navy solid 3px;
+        background-color: white;
+        box-shadow: 3px 3px 3px #b8e3f9;
+        
+        
+    }
+
+#button {
+    
+    border-color: white;
+    box-shadow: 3px 3px 3px #b8e3f9;
+    
+}
+
+    #button:hover {
+        transform: translateY(-2px);
+        transition: 0.3s;
+    }
+
+
+.timer {
+    display: flex;
+    color: #34495e;
+}
+
+@media all and (max-width: 500px) {
+
+    .timer {
+        display: grid;
+        max-width: 40vh;
+        text-align: center;
+    }
+
+    #form {
+        display: grid;
+        width: 40%;
+        margin-bottom: 20%;
+    }
+
+    h1 {
+        display: grid;
+        text-align:justify;
+    }
+
+    body {
+        width: 70vh;
+    }
+}
+
+.dcontainer {
+   
+    background-color: #ffffff;
+    text-align: center;
+    padding: 4%;
+    margin: 2%;
+    box-shadow: 10px 10px 5px #b8e3f9;
+}
+
+    .dcontainer:hover {
+        transform: translateY(-7px);
+        transition: 0.3s;
+    }
+
+.hcontainer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 4%;
+    margin: 2%;
+    box-shadow: 10px 10px 5px #b8e3f9;
+}
+
+    .hcontainer:hover {
+        transform: translateY(-7px);
+        transition: 0.3s;
+    }
+
+.mcontainer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 4%;
+    margin: 2%;
+    box-shadow: 10px 10px 5px #b8e3f9;
+}
+
+    .mcontainer:hover {
+        transform: translateY(-7px);
+        transition: 0.3s;
+    }
+
+.scontainer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 4%;
+    margin: 2%;
+    box-shadow: 10px 10px 5px #b8e3f9;
+}
+
+    .scontainer:hover {
+        transform: translateY(-7px);
+        transition: 0.3s;
+    }
+
+.text {
+    font-size: 6rem;
+    margin: 0 2rem;
+    line-height: 1;
+    font-weight: bold;
+}
+
+h2,h3 {
+    color:navy;
+    text-align: center;
+   }
+
+    h2 span {
+        color: navy;
+    }
